@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+td{
+    vertical-align: top;
+}
+ul{
+    list-style: none; /*estilos de las listas*/
+}
+ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Tipo de letra*/
+    font-size: 22px; /*Tamaño de letra*/
+    height: 60px; /*Altura de cada opcion de la lista*/
+}
+ul li a{
+    height: 60px; /*altura*/
+    background-color: black; /*color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(8,96,179);
+    border-right: 10px solid rgb(144,253,111);
+    padding-left: 15px; /*separacion izquierda del texto*/
+    text-decoration: none;
+    color: aqua;
+}
+ul li a:hover{
+    margin-left: 10px;
+    color: gray;
+    background-color: black;
+    box-shadow: 10px 10px 20px #000;/*sombra*/
+    transform: rotate(4deg); /*movimiento de rotacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+div{
+    color: whitesmoke;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: blue;
+    border-radius: 15px;
+    border: solid 2px black;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px chocolate;
+}
